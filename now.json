@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "alias": "fldwrk.io",
+  "scope": "fldwrk",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://www.fldwrk.io/$1" }
+    }
+  ]
+}
